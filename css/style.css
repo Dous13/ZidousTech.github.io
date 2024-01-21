@@ -1,0 +1,128 @@
+body
+{
+    font-family: font;
+}
+
+.bio
+{
+    margin-top: 150px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.profilepicture
+{
+    object-position: center;
+    margin-top: 350px;
+}
+
+.backgroundphoto
+{
+    background-image: url('/images/Headerphoto.jpg');
+    width: auto;
+    height: 500px;
+    padding-top: 50px;
+
+}
+
+.headertext
+{
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 150px;
+}
+
+.navbarlogo
+{
+    height: 50px;
+    width: 70px;
+}
+
+.card
+{
+    z-index: 999;
+    position: relative;
+    margin-top: 150px;
+}
+
+.animation
+{
+    animation: fade linear both;
+}
+
+.homecarousel
+{
+    margin-top: 150px;
+}
+
+.homecarouseltextheader
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.navbarlogo
+{
+    z-index: 9999;
+}
+
+
+.survey {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.question {
+    font-size: 22px;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.options {
+    margin-top: 15px;
+}
+
+.checkbox-label {
+    margin-right: 25px;
+    font-size: 16px;
+    color: #495057;
+}
+
+#filterButton {
+    margin-top: 25px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#filterButton:hover {
+    background-color: #0056b3;
+}
+
+@font-face {
+    font-family: font;
+    src: url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap);
+  }
+
+@keyframes fade
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
